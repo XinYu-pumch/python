@@ -1,0 +1,8 @@
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple wheel   ##通过清华的云安装wheel包
+
+#虚拟环境的问题
+##首先安装virtualenv
+pip3 install virtualenv
+##然后对你要进入的文件搞一个定位
+virtualenv /Users/yuxin/Downloads/faceswap/faceswap_env
+source /Users/yuxin/Downloads/faceswap/faceswap_env/bin/activate ##如此就可以链接到对应的python
